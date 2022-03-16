@@ -1,10 +1,14 @@
-import Home from './views/home/index'
+import Navigations from './components/navigations/Navigations'
+import FooterPage from'./components/footer/FooterPage'
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <>
+      <Navigations/>
+      HOLA
+      <FooterPage/>
+      
+    </>
   );
 }
 
