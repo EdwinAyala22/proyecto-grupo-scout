@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
-*{
+.navbar{
+    background-color: #1e0941;
+}
+
+.nav-item{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.logo-nav{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* .navbar-brand{
+    
+} */
+.location{
+    transition: all 0.2s ease-in;
+}
+
+.location:hover{
+    transform: scale(1.1);
+}
+
+.nav-link{
+    transition: all 0.2s ease-in;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+}
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -103,4 +138,4 @@ nav ul li {
     #check:checked ~ ul {
         left: 0;
     }
-}
+} */
